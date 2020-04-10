@@ -32,9 +32,13 @@ public class demo2 {
 
 	public static void main(String[] args) {
 		hospital nHospital=new hospital();
+		//初始化医院
 		bus nbus=new bus();
+		//初始化公交车
 		TrainTicket nTTk=new TrainTicket();
+		//初始化火车票
 		PlantTicket nPT=new PlantTicket();
+		//初始化机票
 		System.out.println("医院名:"+nHospital.hName);
 		System.out.println("电话:"+nHospital.hTel);
 		System.out.println("地址:"+nHospital.hAdr);
