@@ -1,4 +1,4 @@
-package com.ZZH.demo;
+﻿package com.ZZH.demo;
 /**
  * 
  * @author zzh
@@ -15,7 +15,7 @@ class bus{
 	int bNumber= 22;
 	int bSeat=32;
 	}
-//公交车的类及成员变量
+//定义公交车的类及成员变量
 class TrainTicket{
 	String TLine = "苏州，南京";
 	int Tcarriage= 7;
