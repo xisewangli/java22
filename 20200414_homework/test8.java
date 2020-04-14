@@ -1,7 +1,8 @@
-package com.ZZH.demo;
-import java.util.*;
-public class test8 {
+﻿package com.ZZH.demo;
 
+import java.util.*;
+
+public class test9 {
 	public static void main(String[] args) {
 		hospitalSystem();
 	}
@@ -19,19 +20,24 @@ public class test8 {
 				break;
 			}
 			else if(i<=2){
-				System.out.println("密码错误请重试：");
+				System.out.println("密码错误请重试：");				
 			}
-			else{
-				System.out.println("多次错误系统已锁定");
+			else{	
+				i=10;
 			}			
 		}
-		Scanner inTime = new Scanner(System.in);
-		String appointmentTime = inTime.nextLine();
-		double AT =Double.parseDouble(appointmentTime);
-		if((AT-Alreadytime)<0.3&&(AT-Alreadytime)>-0.7){
-			System.out.println("该时间段已存在预约");
-		}else{
-			System.out.println("预约成功");
-		}				
+		if(i<10){
+			Scanner inTime = new Scanner(System.in);
+			String appointmentTime = inTime.nextLine();
+			double AT =Double.parseDouble(appointmentTime);
+			if((AT-Alreadytime)<0.3&&(AT-Alreadytime)>-0.7){
+				System.out.println("该时间段已存在预约");
+			}else{
+				System.out.println("预约成功");
+			}
+		}
+		else{
+			System.out.println("多次错误系统已锁定");
+		}	
 	}
 }
