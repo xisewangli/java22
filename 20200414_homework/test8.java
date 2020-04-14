@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class test9 {
+public class test8 {
 	public static void main(String[] args) {
 		hospitalSystem();
 	}
