@@ -1,6 +1,4 @@
-package com.ZZH.demo;
-import java.util.*;
-import com.ZZH.vo.*;
+﻿import java.util.*;
 public class test17 {
 	public static void main(String[] args) {
 		String hotelName;
